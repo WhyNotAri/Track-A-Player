@@ -1,0 +1,12 @@
+name: Track-A-Player
+version: 1.0.0
+main: com.ari.myplugin.Main
+description: Track a player with a compass using a command
+author: WhyNotAri
+website: https://papermc.io
+api-version: '26.1.2'
+
+commands:
+  track:
+    description: Select a player to track with a compass
+    usage: /track <player>

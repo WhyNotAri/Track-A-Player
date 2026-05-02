@@ -1,0 +1,161 @@
+# Gradle
+.gradle
+.kotlin
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Java
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+*.jar
+!gradle-wrapper.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+
+# Minecraft/Paper Server Testing
+server/
+test-server/
+run/
+logs/
+plugins/
+eula.txt
+server.properties
+banned-players.json
+banned-ips.json
+ops.json
+whitelist.json
+usercache.json
+world/
+world_nether/
+world_the_end/
+
+# Plugin Development
+*.jar.original
+dependency-reduced-pom.xml
+
+# Security & Secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+secrets/
+secret.*
+credentials/
+credentials.*
+**/secrets/
+**/credentials/
+config/local.yml
+config/local.yaml
+config/local.properties
+local.properties
+application-local.yml
+application-local.properties
+
+# API Keys & Tokens
+**/apikeys/
+*.token
+.token
+api-keys.*
+auth.json
+oauth.json
+
+# Database & Backups
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+*.dump
+backups/
+*.backup
+
+# Testing & Debug Data
+test-data/
+debug/
+*.debug
+coverage/
+.nyc_output/
+
+# Personal Notes & Documentation
+TODO.md
+NOTES.md
+notes/
+docs/private/
+
+# Local IDE Run Configurations (may contain paths)
+.idea/runConfigurations/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/shelf/
+.idea/dictionaries
+.idea/**/workspace.xml
+.idea/**/tasks.xml
