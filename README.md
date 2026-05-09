@@ -15,7 +15,7 @@ Give the player who runs the `/tracker <player>` command a compass that tracks t
 ---
 
 ## Requirements
-- Java 21
+- Java 25
 - Paper 26.1.2
 - Gradle
 
@@ -29,7 +29,7 @@ Give the player who runs the `/tracker <player>` command a compass that tracks t
 
 ### Clone the repository
 ```
-git clone https://github.com/WhyNotAri/My-Paper-Plugin.git
+git clone https://github.com/WhyNotAri/Track-A-Player.git
 ```
 
 ### Build with Gradle
